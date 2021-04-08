@@ -13,13 +13,11 @@
       <div id="darkbg">
         <a href="#"><img id="btnAbreMenu" src="assets/icon.png"></a>
         <div id="blue-background"></div>
-        <nav id="content">
-            <h1>Nome da empresa</h1>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non possimus est sequi sunt iste cumque ea autem debitis dolor sed consequatur sit, vitae omnis blanditiis animi modi, a, amet illum!</p>
-        </nav>
+        <h1>Nome da empresa</h1>
+        
         <div id="menu">
-            <h2><a href="#">Index</a></h2>
+            <h2><a href="#">&nbsp;</a></h2>
+            <h2><a href="#">Home</a></h2>
             <h2><a href="#">Produtos</a></h2>
             <h2><a href="#">Contato</a></h2>
             <h2><a href="#">Busca</a></h2>
@@ -28,12 +26,16 @@
         <div id="form">
             <div id="form-inner">
                 <form method="POST" href="#">
-                    <h2>Faça seu Login</h2>
-                    <label>Login:</label>
-                    <input type="text">
+                    <div id="login">
+                        <h2>Faça seu Login</h2>
+                        <label>Login:</label>
+                        <input type="text" placeholder="example: Rodrigo14" required>
+                    </div>
+                    <div id="senha">
                     <label>Senha:</label>
-                    <input type="Password">
-                    <input type="submit">
+                    <input type="Password" placeholder="example: R1234" required>
+                    </div>
+                    <input id="submit" type="submit" value="Entrar">
                 </form>
             </div>
       </div>

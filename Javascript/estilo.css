@@ -22,10 +22,12 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     padding: 25px;
 }
-#content{
-    padding-left: 50px;
-    color:white;
+h1{
+    text-align: center;
+    color: white;
 }
+
+
 #menu {
     width: 150px;
     height: 100%;
@@ -74,6 +76,7 @@ body{
 #form{
     position: relative;
     width: 100%;
+    top: 100px;
 }
 
 #form-inner{
@@ -83,10 +86,43 @@ body{
     position: absolute;
     text-align: center;
     transform: translateX(-50%);
-    
-    background-image: linear-gradient(to bottom right, rgb(202, 5, 143),rgb(62, 6, 214));
+    background-color:rgba(0, 0, 0, 0.6);
     border-radius: 20px;
 }
 #form h2, label{
     color: rgb(255, 255, 255);
 }
+
+form label, form input{
+    margin:10px;
+    margin-left: 112px;
+    display: flex;
+    justify-content: justify;
+    
+}
+
+#senha{
+    margin-top: 30px;
+}
+
+form [type="submit"] {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width:100px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right, rgb(202, 5, 143),rgb(62, 6, 214));
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    border: solid black 1px;
+    font-family: monospace;
+    transition: 0.3s all;
+}
+
+form [type="submit"]:hover{
+    transform: scale(1.1);
+}
+
+
