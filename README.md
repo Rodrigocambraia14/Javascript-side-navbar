@@ -1,4 +1,4 @@
 # Javascript-side-navbar
- Repository to show a javascript nav-bar
+ Full Javascript-made nav-bar
 
 
